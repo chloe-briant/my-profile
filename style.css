@@ -1,0 +1,88 @@
+/*Colors and fonts*/
+body{
+    background-color: #F5EEE6;
+    color: rgb(50,50,50);
+    font-family: Arial;
+    font-size: 16px;
+}
+h1, h2, h3{
+	color: #B3C8CF;
+	font-family: Aptos;
+	font-size: 42px;
+	font-weight: lighter;
+}
+ 
+
+/*Custom design with class*/
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 960px){
+  .container{
+  	width: 750px;
+  }
+}
+@media (max-width: 720px){
+  .container{
+  	width: 600px;
+  }
+@media (max-width: 540px){
+  .container{
+  	width: 400px;
+  }
+}
+}
+
+.box-white{
+	background: white;
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	margin: 30px 0px;
+	text-align: center;
+}
+.img-circle{
+	border-radius: 50%;
+	width: 150px;
+}
+.btn-blue:link{
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.btn-blue:hover{
+    background-color: black;
+    color: white;
+}
+.btn-blue:visited{
+	color: #F1EC8C;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display:inline;
+	padding: 10px;
+}
+.list-inline i{
+    font-size: 30px;
+}
+.list-inline i:link {
+    color: #8CD9F1;
+    text-decoration: none;
+}
+
+.list-inline i:hover {
+	color: pink;
+}
+.list-inline :visited {
+	color: #86F06F;
+}
+#introduction p{
+	margin-bottom: 40px;
+}
